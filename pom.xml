@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.luv2code</groupId>
-    <artifactId>spring-security-demo</artifactId>
+    <groupId>spring-security-example</groupId>
+    <artifactId>spring-security-example</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
     <name>spring-security-demo</name>
 
     <properties>
-        <springframework.version>5.0.2.RELEASE</springframework.version>
-        <springsecurity.version>5.0.0.RELEASE</springsecurity.version>
+        <springframework.version>5.1.1.RELEASE</springframework.version>
+        <springsecurity.version>5.1.1.RELEASE</springsecurity.version>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -71,15 +71,13 @@
 
     </dependencies>
 
-    <!-- TO DO: Add support for Maven WAR Plugin -->
 
     <build>
-        <finalName>spring-security-demo</finalName>
+        <finalName>spring-security-example</finalName>
 
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <!-- Add Maven coordinates (GAV) for: maven-war-plugin -->
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>3.2.0</version>
@@ -87,6 +85,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-
 </project>
