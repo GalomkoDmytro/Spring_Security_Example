@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-example" />
         <module name="Spring_Security_Example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springsecurtiyexample02basicsecurity" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
